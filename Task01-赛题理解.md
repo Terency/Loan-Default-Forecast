@@ -200,17 +200,16 @@ AUC socre: 0.75
 #### 4.1 WOE变换
 WOE的全称是“Weight of Evidence”，即证据权重。WOE是对原始自变量的一种编码形式。要对一个变量进行WOE编码，需要首先把这个变量进行分组处理（也叫离散化、分箱）。公示如下：
 
-<img src="https://latex.codecogs.com/gif.latex?WOE_i&space;=\frac{\frac{y_i}{y_T}}{\frac{n_i}{n_T}}" title="WOE_i =\frac{\frac{y_i}{y_T}}{\frac{n_i}{n_T}}" />
-
+![](https://github.com/Terency/Image/blob/master/WOE%E5%85%AC%E5%BC%8F.png)
 
 #### 4.2 IV变换
 IV的全称是Information Value，中文意思是信息价值，或者信息量。可以用来衡量自变量的预测能力，类似于基尼系数、信息增益。公示如下：
 
-<img src="https://latex.codecogs.com/gif.latex?IV_i&space;=&space;(\frac{y_i}{y_T}&space;-&space;\frac{n_i}{n_T})*ln\frac{\frac{y_i}{y_T}}{\frac{n_i}{n_T}}" title="IV_i = (\frac{y_i}{y_T} - \frac{n_i}{n_T})*ln\frac{\frac{y_i}{y_T}}{\frac{n_i}{n_T}}" />
+![](https://github.com/Terency/Image/blob/master/IV%E5%85%AC%E5%BC%8F.png)
 
 举例说明:
 
 
-![](https://upload-images.jianshu.io/upload_images/20605284-55a6bf19668b2d24.png?imageMogr2/auto-orient/strip|imageView2/2/w/715)
-![](https://upload-images.jianshu.io/upload_images/20605284-a6c29da8349aff7b.png?imageMogr2/auto-orient/strip|imageView2/2/w/488)
-![](https://upload-images.jianshu.io/upload_images/20605284-a0cf51d762116237.png?imageMogr2/auto-orient/strip|imageView2/2/w/661)
+![](https://github.com/Terency/Image/blob/master/%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E1.png)
+![](https://github.com/Terency/Image/blob/master/%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E2.png)
+![](https://github.com/Terency/Image/blob/master/%E4%B8%BE%E4%BE%8B%E8%AF%B4%E6%98%8E3.png)
