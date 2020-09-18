@@ -346,7 +346,9 @@ for feat in disp_feat_list:
 
 plt.show()
 ```
-![]()
+
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/1.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81kdeplot.png)
+
 #### 3.4 连续特征异常值分析
 ```
 # 通过箱线图查看异常值情况
