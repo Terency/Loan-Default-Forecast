@@ -311,7 +311,7 @@ for feat in conus_feat_list:
     plt.legend(["train_dat", "test_dat"])
 plt.show()
 ```
-![]()
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/1.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81kdeplot.png)
 #### 3.3 离散特征分布分析
 **统计每个特征的值的个数，找出只有一个值的特征，直接删除**
 ```
@@ -347,7 +347,7 @@ for feat in disp_feat_list:
 plt.show()
 ```
 
-![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/1.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81kdeplot.png)
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/2.%E7%A6%BB%E6%95%A3%E7%89%B9%E5%BE%81countplot.png)
 
 #### 3.4 连续特征异常值分析
 ```
@@ -374,7 +374,7 @@ for feat in conus_feat_list:
 
 plt.show()
 ```
-![]()
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/3.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81%E5%BC%82%E5%B8%B8%E5%80%BCboxplot.png)
 #### 3.5 连续特征相关性查看
 ```
 # 利用热力图进一步查看相关系数
@@ -382,9 +382,10 @@ plt.figure(figsize=(20, 12))
 sns.heatmap(train_dat[conus_feat_list].corr(), annot=True, linewidth=0.5, fmt=".2f", cmap="YlGnBu")
 plt.show()
 ```
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/4.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0heatmap.png)
 ```
 # 查看连续变量间的相关系数
 sns.pairplot(train_dat[conus_feat_list])
 ```
-
+![](https://github.com/Terency/Image/blob/master/EDA%E6%95%B0%E6%8D%AE%E6%8E%A2%E7%B4%A2/5.%E8%BF%9E%E7%BB%AD%E7%89%B9%E5%BE%81%E6%95%A3%E7%82%B9%E5%9B%BEpairplot.png)
 
